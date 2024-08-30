@@ -15,6 +15,31 @@ defmodule Realworld.BlogsTest do
       assert Blogs.list_articles() == [article]
     end
 
+    test "list_articles_by_tag/1" do
+      {:ok, %{article: a1}} =
+        Blogs.insert_article_with_tags(%{
+          title: "t",
+          body: "b",
+          tags_string: "Elixir, Phoenix, Nerves, Nx",
+        })
+      {:ok, %{article: a2}} =
+        Blogs.insert_article_with_tags(%{
+          title: "t",
+          body: "b",
+          tags_string: "Elixir",
+        })
+
+      # 「Elixir」タグを持つ記事を検索
+      assert Blogs.list_articles_by_tag("Elixir")
+             |> Enum.map(& &1.id) |> MapSet.new()
+             |> MapSet.equal?(MapSet.new([a1.id, a2.id]))
+
+      # 「Phoenix」タグを持つ記事を検索
+      assert Blogs.list_articles_by_tag("Phoenix")
+             |> Enum.map(& &1.id) |> MapSet.new()
+             |> MapSet.equal?(MapSet.new([a1.id]))
+    end
+
     test "get_article!/1 returns the article with given id" do
       article = article_fixture()
       assert Blogs.get_article!(article.id) == article
