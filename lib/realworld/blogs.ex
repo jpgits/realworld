@@ -22,6 +22,11 @@ defmodule Realworld.Blogs do
     Repo.all(Article) |> Repo.preload(:tags)
   end
 
+  def list_articles_by_tag(tag_name) do
+    query = from a in Article, join: t in assoc(a, :tags), on: t.tag == ^tag_name
+    Repo.all(query) |> Repo.preload(:tags)
+  end
+
   @doc """
   Gets a single article.
 
@@ -39,7 +44,7 @@ defmodule Realworld.Blogs do
   def get_article!(id) do
     Repo.get!(Article, id) |> Repo.preload([:tags, comments: :author])
   end
- 
+
   def insert_article_with_tags(attrs) do
     insert_or_update_article_with_tags(%Article{}, attrs)
   end
@@ -83,11 +88,6 @@ defmodule Realworld.Blogs do
     article
     |> Article.changeset(attrs, tags)
     |> Repo.insert_or_update()
-  end
-
-  def list_articles_by_tag(tag_name) do
-    query = from a in Article, join: t in assoc(a, :tags), on: t.tag == ^tag_name
-    Repo.all(query) |> Repo.preload(:tags)
   end
 
   @doc """
