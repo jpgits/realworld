@@ -16,19 +16,19 @@ defmodule RealworldWeb.ArticleLive.Index do
 
   defp apply_action(socket, :edit, %{"id" => id}) do
     socket
-    |> assign(:page_title, "Edit Article")
+    |> assign(:page_title, "書き込み編集")
     |> assign(:article, Blogs.get_article!(id))
   end
 
   defp apply_action(socket, :new, _params) do
     socket
-    |> assign(:page_title, "New Article")
+    |> assign(:page_title, "新規書き込み")
     |> assign(:article, %Article{})
   end
 
   defp apply_action(socket, :index, _params) do
     socket
-    |> assign(:page_title, "Listing Articles")
+    |> assign(:page_title, "書き込み集")
     |> assign(:article, nil)
   end
 

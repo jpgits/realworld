@@ -1,8 +1,8 @@
 <.header>
-  Listing Articles
+  記事  
   <:actions :if={@current_user}>
     <.link patch={~p"/articles/new"}>
-      <.button>New Article</.button>
+      <.button>新規の記事作成</.button>
     </.link>
   </:actions>
 </.header>
@@ -11,7 +11,7 @@
   id="articles"
   rows={@streams.articles}
   row_click={fn {_id, article} -> JS.navigate(~p"/articles/#{article}") end}
->
+  >
   <:col :let={{_id, article}} label="Title"><%= article.title %></:col>
   <:col :let={{_id, article}} label="Body"><%= article.body %></:col>
   <:action :let={{_id, article}}>

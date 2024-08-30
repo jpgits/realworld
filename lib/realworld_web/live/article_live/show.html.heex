@@ -1,6 +1,6 @@
 <.header>
-  Article <%= @article.id %>
-  <:subtitle>This is a article record from your database.</:subtitle>
+   記事<%= @article.id %>
+  <:subtitle>これはデータベースの記事レコードです。</:subtitle>
   <:actions :if={@current_user && @current_user.id == @article.author_id}>
     <.link patch={~p"/articles/#{@article}/show/edit"} phx-click={JS.push_focus()}>
       <.button>Edit article</.button>
@@ -12,9 +12,9 @@
 </.header>
 
 <.list>
-  <:item title="Title"><%= @article.title %></:item>
-  <:item title="Body"><%= @article.body %></:item>
-  <:item title="Comments">
+  <:item title="タイトル"><%= @article.title %></:item>
+  <:item title="内容"><%= @article.body %></:item>
+  <:item title="コメント">
       <.table id="comments" rows={@article.comments}>
         <:col :let={comment} label="Author"><%= comment.author.email %></:col>
         <:col :let={comment} label="Body"><%= comment.body %></:col>

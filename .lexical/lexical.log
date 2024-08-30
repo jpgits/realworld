@@ -1,0 +1,969 @@
+00:42:04.380 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+00:47:58.119 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/app.html.heex
+00:47:58.368 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:00.945 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:12.855 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex
+00:48:13.110 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:19.477 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/core_components.ex
+00:48:19.495 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+00:48:19.535 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 18]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4317]}]}
+    (kernel 9.1) erpc.erl:702: :erpc.call/5
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:19.729 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:20.885 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts.ex
+00:48:20.892 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+00:48:20.919 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 18]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4317]}]}
+    (kernel 9.1) erpc.erl:702: :erpc.call/5
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:21.140 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:24.281 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/core_components.ex
+00:48:24.317 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+00:48:24.336 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 18]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4317]}]}
+    (kernel 9.1) erpc.erl:702: :erpc.call/5
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:24.534 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:25.947 [info] Resolved entity: {:variable, :customize}
+00:48:25.947 [warn] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :customize}}}
+00:48:53.234 [info] opened file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex
+00:48:53.488 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:48:54.533 [warn] Could not resolve hover request, got: {:error, {:unsupported, {:operator, ~c">"}}}
+00:49:12.007 [warn] Could not resolve hover request, got: {:error, {:unsupported, {:unquoted_atom, ~c"page_title"}}}
+00:49:12.672 [info] Resolved entity: {:variable, :en}
+00:49:12.673 [warn] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :en}}}
+00:49:12.993 [error] ** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.15.7) lib/file.ex:1567: File.cwd!/0
+    (elixir 1.15.7) lib/path.ex:166: Path.expand/1
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:53: LXical.Server.Provider.Handlers.CodeLens.show_reindex_lens?/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:28: LXical.Server.Provider.Handlers.CodeLens.reindex_lens/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:18: LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:13.324 [info] Resolved entity: {:variable, :charset}
+00:49:13.325 [warn] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :charset}}}
+00:49:15.715 [error] GenServer LXical.Server terminating
+** (stop) {:exception, {{%File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {Path, :absname, 1, [file: ~c"lib/path.ex", line: 47]}, {LXical.RemoteControl.Build, :compile_document, 2, [file: ~c"lib/lexical/remote_control/build.ex", line: 30]}, {Task.Supervised, :invoke_mfa, 2, [file: ~c"lib/task/supervised.ex", line: 101]}, {Task.Supervised, :reply, 4, [file: ~c"lib/task/supervised.ex", line: 36]}]}, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :compile_document, [%{__struct__: LXical.Project, entropy: 14159, project_module: Realworld.MixProject, mix_exs_uri: "file:///Users/aran/creates/pheonix-practice/realworld/mix.exs", mix_project?: true, root_uri: "file:///Users/aran/creates/pheonix-practice/realworld", env_variables: %{}, mix_env: nil, mix_target: nil}, #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+
+>], -576460752303422550}, :ok}, :infinity]}}}
+    (kernel 9.1) erpc.erl:700: :erpc.call/5
+    (lx_server 0.5.0) lib/lexical/server/state.ex:165: LXical.Server.State.apply/2
+    (lx_server 0.5.0) lib/lexical/server.ex:154: LXical.Server.apply_to_state/2
+    (lx_server 0.5.0) lib/lexical/server.ex:117: LXical.Server.handle_message/2
+    (lx_server 0.5.0) lib/lexical/server.ex:59: LXical.Server.handle_cast/2
+    (stdlib 5.1.1) gen_server.erl:1103: :gen_server.try_handle_cast/3
+    (stdlib 5.1.1) gen_server.erl:1165: :gen_server.handle_msg/6
+    (stdlib 5.1.1) proc_lib.erl:241: :proc_lib.init_p_do_apply/3
+Last message: {:"$gen_cast", {:protocol_message, %{__struct__: LXical.Protocol.Notifications.DidChange, document: nil, lsp: %{__struct__: LXical.Protocol.Notifications.DidChange.LSP, text_document: #Protocol.Types.TextDocument.Versioned.Identifier<[version: 2, uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/didChange", jsonrpc: "2.0", content_changes: [#Protocol.Types.TextDocument.ContentChangeEvent.TextDocumentContentChangeEvent<[range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 1, character: 12]>, end: #Protocol.Types.Position<[line: 1, character: 13]>]>, text: "j", range_length: 1]>]}, text_document: nil, method: "textDocument/didChange", jsonrpc: "2.0", content_changes: nil}}}
+State: %{__struct__: LXical.Server.State, configuration: %{__struct__: LXical.Server.Configuration, project: %{__struct__: LXical.Project, entropy: 14159, project_module: nil, mix_exs_uri: "file:///Users/aran/creates/pheonix-practice/realworld/mix.exs", mix_project?: true, root_uri: "file:///Users/aran/creates/pheonix-practice/realworld", env_variables: %{}, mix_env: nil, mix_target: nil}, support: %{deprecated: true, __struct__: LXical.Server.Configuration.Support, snippet: true, work_done_progress: true, tags: #Protocol.Types.Completion.ClientCapabilities.TagSupport<[value_set: [:deprecated]]>, signature_help: #Protocol.Types.SignatureHelp.ClientCapabilities<[dynamic_registration: true, context_support: true, signature_information: #Protocol.Types.SignatureHelp.ClientCapabilities.SignatureInformation<[documentation_format: [:markdown, :plain_text], active_parameter_support: true, parameter_information: #Protocol.Types.SignatureHelp.ClientCapabilities.ParameterInformation<[label_offset_support: true]>]>]>, code_action_dynamic_registration: true, hierarchical_symbols: true}, client_name: "VSCodium", dialyzer_enabled?: false, additional_watched_extensions: nil}, in_flight_requests: %{}, initialized?: true, shutdown_received?: false}
+00:49:15.726 [error] Process LXical.Server (#PID<0.1549.0>) terminating
+** (exit) {:exception, {{%File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {Path, :absname, 1, [file: ~c"lib/path.ex", line: 47]}, {LXical.RemoteControl.Build, :compile_document, 2, [file: ~c"lib/lexical/remote_control/build.ex", line: 30]}, {Task.Supervised, :invoke_mfa, 2, [file: ~c"lib/task/supervised.ex", line: 101]}, {Task.Supervised, :reply, 4, [file: ~c"lib/task/supervised.ex", line: 36]}]}, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :compile_document, [%{__struct__: LXical.Project, entropy: 14159, project_module: Realworld.MixProject, mix_exs_uri: "file:///Users/aran/creates/pheonix-practice/realworld/mix.exs", mix_project?: true, root_uri: "file:///Users/aran/creates/pheonix-practice/realworld", env_variables: %{}, mix_env: nil, mix_target: nil}, #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+
+>], -576460752303422550}, :ok}, :infinity]}}}
+    (kernel 9.1) erpc.erl:700: :erpc.call/5
+    (lx_server 0.5.0) lib/lexical/server/state.ex:165: LXical.Server.State.apply/2
+    (lx_server 0.5.0) lib/lexical/server.ex:154: LXical.Server.apply_to_state/2
+    (lx_server 0.5.0) lib/lexical/server.ex:117: LXical.Server.handle_message/2
+    (lx_server 0.5.0) lib/lexical/server.ex:59: LXical.Server.handle_cast/2
+    (stdlib 5.1.1) gen_server.erl:1103: :gen_server.try_handle_cast/3
+    (stdlib 5.1.1) gen_server.erl:1165: :gen_server.handle_msg/6
+    (stdlib 5.1.1) proc_lib.erl:241: :proc_lib.init_p_do_apply/3
+Initial Call: LXical.Server.init/1
+Ancestors: [LXical.Server.Supervisor, #PID<0.1546.0>]
+Message Queue Length: 0
+Messages: []
+Links: [#PID<0.1547.0>]
+Dictionary: [rand_seed: {%{type: :exsss, next: #Function<0.65977474/1 in :rand.exsss_next>, bits: 58, uniform: #Function<1.65977474/1 in :rand.exsss_uniform>, uniform_n: #Function<2.65977474/2 in :rand.exsss_uniform>, jump: #Function<3.65977474/1 in :rand.exsplus_jump>}, [157718066784868616 | 216789720121088211]}]
+Trapping Exits: false
+Status: :running
+Heap Size: 6772
+Stack Size: 28
+Reductions: 290003
+00:49:15.727 [error] Child LXical.Server of Supervisor LXical.Server.Supervisor terminated
+** (exit) {:exception, {{%File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1567]}, {Path, :absname, 1, [file: ~c"lib/path.ex", line: 47]}, {LXical.RemoteControl.Build, :compile_document, 2, [file: ~c"lib/lexical/remote_control/build.ex", line: 30]}, {Task.Supervised, :invoke_mfa, 2, [file: ~c"lib/task/supervised.ex", line: 101]}, {Task.Supervised, :reply, 4, [file: ~c"lib/task/supervised.ex", line: 36]}]}, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :compile_document, [%{__struct__: LXical.Project, entropy: 14159, project_module: Realworld.MixProject, mix_exs_uri: "file:///Users/aran/creates/pheonix-practice/realworld/mix.exs", mix_project?: true, root_uri: "file:///Users/aran/creates/pheonix-practice/realworld", env_variables: %{}, mix_env: nil, mix_target: nil}, #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+
+>], -576460752303422550}, :ok}, :infinity]}}}
+Pid: #PID<0.1549.0>
+Start Call: LXical.Server.start_link([])
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
+00:49:15.729 [info] Child LXical.Server of Supervisor LXical.Server.Supervisor started
+Pid: #PID<0.1625.0>
+Start Call: LXical.Server.start_link([])
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
+00:49:15.954 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 53, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 53, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:16.048 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 54, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 54, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:16.051 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 55, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 55, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:16.289 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 56, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<2, 14>>...<<2, 14>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 56, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 1, character: 13]>, end: #Protocol.Types.Position<[line: 1, character: 13]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:16.702 [error] Received textDocument/didChange before server was initialized
+00:49:16.706 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+00:49:16.706 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+00:49:16.721 [error] Received textDocument/didSave before server was initialized
+00:49:16.723 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+00:49:16.723 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+00:49:16.789 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 57, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<2, 15>>...<<2, 15>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 57, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 1, character: 14]>, end: #Protocol.Types.Position<[line: 1, character: 14]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:16.962 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 58, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 58, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:17.055 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 59, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 59, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:17.056 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 60, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 60, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:18.493 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 61, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<2, 14>>...<<2, 14>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 61, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 1, character: 13]>, end: #Protocol.Types.Position<[line: 1, character: 13]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:19.301 [error] Received textDocument/didChange before server was initialized
+00:49:19.309 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+00:49:19.309 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+00:49:19.565 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 62, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 62, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:19.655 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 63, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 63, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:19.656 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 64, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 64, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:20.308 [error] Received textDocument/didChange before server was initialized
+00:49:20.312 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+00:49:20.312 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+00:49:20.326 [error] Received textDocument/didSave before server was initialized
+00:49:20.328 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+00:49:20.328 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+00:49:20.565 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 65, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 65, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:20.663 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 66, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 66, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:20.664 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 67, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 67, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:20.891 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 68, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<4, 14>>...<<4, 14>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 68, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 3, character: 13]>, end: #Protocol.Types.Position<[line: 3, character: 13]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:21.993 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 69, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<3, 8>>...<<3, 8>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 69, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 2, character: 7]>, end: #Protocol.Types.Position<[line: 2, character: 7]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:33.510 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 70, position: LxPos<<5, 56>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 70, position: #Protocol.Types.Position<[line: 4, character: 55]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:35.171 [error] read protocol message: {:unknown_notification, "$/setTrace"}
+00:49:35.185 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.5.0) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 72, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<3, 8>>...<<3, 8>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<!DOCTYPE html>..."(58 lines)>,
+        dirty?: true,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.15.7) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/inspect.ex:278: Inspect.List.keyword/2
+    (elixir 1.15.7) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.15.7) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.15.7) lib/kernel.ex:2366: Kernel.inspect/2
+
+>, lsp: %{id: 72, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 2, character: 7]>, end: #Protocol.Types.Position<[line: 2, character: 7]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/aran/creates/pheonix-practice/realworld/lib/realworld_web/components/layouts/root.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.5.0) lib/lexical/server/task_queue.ex:77: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.15.7) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.15.7) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+00:49:45.417 [error] stdio received :eof, server will stop.
+00:49:45.417 [error] Child LXical.Server.Transport.StdIO of Supervisor LXical.Server.Supervisor terminated
+** (exit) normal
+Pid: #PID<0.1553.0>
+Start Call: LXical.Server.Transport.StdIO.start_link(:standard_io, &LXical.Server.protocol_message/1)
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
+00:49:45.417 [info] Child LXical.Server.Transport.StdIO of Supervisor LXical.Server.Supervisor started
+Pid: #PID<0.1646.0>
+Start Call: LXical.Server.Transport.StdIO.start_link(:standard_io, &LXical.Server.protocol_message/1)
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
