@@ -7,12 +7,15 @@ defmodule Realworld.BlogsFixtures do
   @doc """
   Generate a article.
   """
+  import Realworld.AccountsFixtures
+
   def article_fixture(attrs \\ %{}) do
     {:ok, article} =
       attrs
       |> Enum.into(%{
         body: "some body",
         title: "some title",
+        author_id: user_fixture().id
       })
       |> Realworld.Blogs.create_article()
 
@@ -27,7 +30,8 @@ defmodule Realworld.BlogsFixtures do
       attrs
       |> Enum.into(%{
         body: "some body",
-        article_id: article_fixture().id
+        article_id: article_fixture().id,
+        author_id: user_fixture().id
       })
       |> Realworld.Blogs.create_comment()
 

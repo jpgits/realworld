@@ -1,6 +1,8 @@
 defmodule Realworld.BlogsTest do
   use Realworld.DataCase
 
+  import Realworld.AccountsFixtures
+
   alias Realworld.Blogs
 
   describe "articles" do
@@ -46,7 +48,7 @@ defmodule Realworld.BlogsTest do
     end
 
     test "create_article/1 with valid data creates a article" do
-      valid_attrs = %{title: "some title", body: "some body"}
+      valid_attrs = %{title: "some title", body: "some body", author_id: user_fixture().id}
 
       assert {:ok, %Article{} = article} = Blogs.create_article(valid_attrs)
       assert article.title == "some title"
@@ -100,9 +102,10 @@ defmodule Realworld.BlogsTest do
       comment = comment_fixture()
       assert Blogs.get_comment!(comment.id) == comment
     end
+    import Realworld.AccountsFixtures
 
     test "create_comment/1 with valid data creates a comment" do
-      valid_attrs = %{body: "some body", article_id: article_fixture().id}
+      valid_attrs = %{body: "some body", article_id: article_fixture().id, author_id: user_fixture().id}
 
       assert {:ok, %Comment{} = comment} = Blogs.create_comment(valid_attrs)
       assert comment.body == "some body"
