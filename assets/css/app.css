@@ -2,4 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* This file is for your main application CSS */
+.layout-container {
+    @apply mt-8 mb-8 px-4 sm:px-6 lg:px-8;
+    /* 追加のレスポンシブスタイル */
+    @apply sm:mt-6 sm:mb-6;
+    @apply md:mt-10 md:mb-10;
+    @apply lg:mt-12 lg:mb-12;
+    @apply xl:mt-16 xl:mb-16;
+}

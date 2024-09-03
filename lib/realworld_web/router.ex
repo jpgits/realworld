@@ -21,12 +21,6 @@ defmodule RealworldWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
-
-    # live "/articles", ArticleLive.Index,
-    # live "/articles/new", ArticleLive.Index,
-    # live "/articles/:id/edit", ArticleLive.Index,
-    # live "/articles/:id", ArticleLive.Show,
-    # live "/articles/:id/show/edit", ArticleLive.Show,
   end
 
   # Other scopes may use custom stacks.

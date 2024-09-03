@@ -11,20 +11,25 @@
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
     </script>
   </head>
-  <body class="antialiased bg-white">
-    <ul class="flex relative z-10 gap-4 justify-end items-center px-4 sm:px-6 lg:px-8">
-      <li>
-        <.link
-          href={~p"/articles"}
-          class=""
-        >
-        投稿ページ
-        </.link>
-      </li>
+<body class="antialiased bg-white">
+  <ul>
+    <li>
+    ホーム
+    </li>
+  </ul>
+    <ul class="flex relative z-10 gap-4 justify-end items-center px-4 sm:px-6 lg:px-8 border-b border-gray-300 pb-2">
       <%= if @current_user do %>
         <li class="text-[0.8125rem] leading-6 text-zinc-900">
           <%= @current_user.email %>
         </li>
+      <li>
+        <.link
+          href={~p"/articles"}
+          class="text-gray-900 font-medium hover:text-gray-700"
+        >
+        投稿
+        </.link>
+      </li>
         <li>
           <.link
             href={~p"/users/settings"}
@@ -61,6 +66,8 @@
         </li>
       <% end %>
     </ul>
-    <%= @inner_content %>
-  </body>
-</html>
+    <div class="layout-container">
+      <%= @inner_content %>
+    </div>
+</body>
+ </html>

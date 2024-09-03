@@ -5,8 +5,19 @@ defmodule RealworldWeb.ArticleLive.Index do
   alias Realworld.Blogs.Article
 
   @impl true
+  def mount(%{"tag" => tag}, _session, socket) do
+    {:ok,
+     socket
+     |> stream(:articles, Blogs.list_articles_by_tag(tag))
+     |> assign(:tags, Blogs.list_tags())}
+  end
+
+  @impl true
   def mount(_params, _session, socket) do
-    {:ok, stream(socket, :articles, Blogs.list_articles())}
+    {:ok,
+     socket
+     |> stream(:articles, Blogs.list_articles())
+     |> assign(:tags, Blogs.list_tags())}
   end
 
   @impl true
@@ -16,19 +27,19 @@ defmodule RealworldWeb.ArticleLive.Index do
 
   defp apply_action(socket, :edit, %{"id" => id}) do
     socket
-    |> assign(:page_title, "書き込み編集")
+    |> assign(:page_title, "Edit Article")
     |> assign(:article, Blogs.get_article!(id))
   end
 
   defp apply_action(socket, :new, _params) do
     socket
-    |> assign(:page_title, "新規書き込み")
+    |> assign(:page_title, "New Article")
     |> assign(:article, %Article{})
   end
 
   defp apply_action(socket, :index, _params) do
     socket
-    |> assign(:page_title, "書き込み集")
+    |> assign(:page_title, "Listing Articles")
     |> assign(:article, nil)
   end
 

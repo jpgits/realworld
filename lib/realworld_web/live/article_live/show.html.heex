@@ -5,16 +5,16 @@
     <.link patch={~p"/articles/#{@article}/show/edit"} phx-click={JS.push_focus()}>
       <.button>Edit article</.button>
     </.link>
-    <.link phx-click={JS.push("delete")} data-confirm="Are you sure ?">
-      <.button>Delete article</.button>
+    <.link phx-click={JS.push("delete")} data-confirm="決して良い?">
+      <.button>記事削除</.button>
     </.link>
   </:actions>
 </.header>
 
 <.list>
-  <:item title="タイトル"><%= @article.title %></:item>
-  <:item title="内容"><%= @article.body %></:item>
-  <:item title="コメント">
+  <:item title="Title"><%= @article.title %></:item>
+  <:item title="Body"><%= @article.body %></:item>
+  <:item title="Comments">
       <.table id="comments" rows={@article.comments}>
         <:col :let={comment} label="Author"><%= comment.author.email %></:col>
         <:col :let={comment} label="Body"><%= comment.body %></:col>

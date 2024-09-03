@@ -50,8 +50,9 @@ defmodule RealworldWeb.ArticleLive.FormComponent do
   end
 
   defp save_article(socket, :edit, article_params) do
-    article_params = Map.put(article_params, "author_id", socket.assigns.current_user.id)
-    case Blogs.update_article(socket.assigns.article, article_params) do
+    article_params = 
+      Map.put(article_params, "author_id", socket.assigns.current_user.id)
+    case Blogs.update_article(article_params) do
       {:ok, article} ->
         notify_parent({:saved, article})
 
@@ -65,20 +66,6 @@ defmodule RealworldWeb.ArticleLive.FormComponent do
     end
   end
 
-  defp save_article(socket, :new, article_params) do
-    case Blogs.create_article(article_params) do
-      {:ok, article} ->
-        notify_parent({:saved, article})
-
-        {:noreply,
-         socket
-         |> put_flash(:info, "Article created successfully")
-         |> push_patch(to: socket.assigns.patch)}
-
-      {:error, %Ecto.Changeset{} = changeset} ->
-        {:noreply, assign(socket, form: to_form(changeset))}
-    end
-  end
 
   defp notify_parent(msg), do: send(self(), {__MODULE__, msg})
 end
