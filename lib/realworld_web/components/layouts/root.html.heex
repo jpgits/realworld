@@ -13,6 +13,14 @@
   </head>
   <body class="antialiased bg-white">
     <ul class="flex relative z-10 gap-4 justify-end items-center px-4 sm:px-6 lg:px-8">
+      <li>
+        <.link
+          href={~p"/articles"}
+          class=""
+        >
+        投稿ページ
+        </.link>
+      </li>
       <%= if @current_user do %>
         <li class="text-[0.8125rem] leading-6 text-zinc-900">
           <%= @current_user.email %>
@@ -22,7 +30,7 @@
             href={~p"/users/settings"}
             class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
           >
-            Settings
+          設定  
           </.link>
         </li>
         <li>
@@ -31,7 +39,7 @@
             method="delete"
             class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
           >
-            Log out
+          ログアウト  
           </.link>
         </li>
       <% else %>
@@ -40,7 +48,7 @@
             href={~p"/users/register"}
             class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
           >
-            Register
+          登録  
           </.link>
         </li>
         <li>
@@ -48,7 +56,7 @@
             href={~p"/users/log_in"}
             class="text-[0.8125rem] leading-6 text-zinc-900 font-semibold hover:text-zinc-700"
           >
-            Log in
+          ログイン 
           </.link>
         </li>
       <% end %>
